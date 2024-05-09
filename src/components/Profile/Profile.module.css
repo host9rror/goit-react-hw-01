@@ -1,0 +1,82 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирование по горизонтали */
+  justify-content: center; /* Центрирование по вертикали */
+  border: 1px solid black;
+  max-width: 286px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.profileTop {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImg {
+  width: 100%;
+  max-width: 140px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-bottom: 10px;
+}
+
+.profileUsername {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.profileTag {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.profileLocation {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  margin-bottom: 5px;
+}
+
+.profileStatsList {
+  width: 300px;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  background-color: gainsboro;
+}
+
+.profileStatsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0%;
+  text-align: center;
+  border-radius: 1px;
+  border: 1px solid gray;
+}
+
+.profileStatsTop {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 5px 0;
+}
+
+.profileStatsBot {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
