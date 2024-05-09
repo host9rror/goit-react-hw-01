@@ -1,8 +1,8 @@
 import Profile from "./Profile/Profile";
 import userData from "../data/userData.json";
-import FriendList from "./Friend List/FriendList";
+import FriendList from "./FriendList/FriendList";
 import friends from "../data/friendsData.json"
-import TransactionHistory from "./Transactions History/TransactionsHistory";
+import TransactionHistory from "./TransactionsHistory/TransactionsHistory";
 import transactions from "../data/transactionsData.json"
 
 function App() {
